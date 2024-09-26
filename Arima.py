@@ -36,3 +36,5 @@ def download_forecast():
         return {"error": f"An error occurred while trying to download the forecast: {e}"}
 
 #use "uvicorn Arima:app --reload" for running
+#before running place all files in a single folder 
+#Forecasted sales,models,API
