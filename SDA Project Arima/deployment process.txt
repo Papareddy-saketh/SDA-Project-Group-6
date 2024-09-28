@@ -1,0 +1,8 @@
+python -- version  run on command prompt
+python -m venv env
+env\scripts\activate
+download fast api and uvicorn as pip install uvicorn fastapi
+download numpy as pip install numpy
+then go to the files saved directory in my case desktop so cd Desktop
+files include api code arima codes forecasted sales csv
+then run uvicorn model(api saved file name):app --reload
